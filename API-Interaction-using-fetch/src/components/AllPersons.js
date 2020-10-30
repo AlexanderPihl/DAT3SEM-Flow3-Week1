@@ -12,17 +12,11 @@ export default function AllPersons(props) {
         </thead>
         <tbody>
           {persons.map(person => (
-            <tr key={person.id}>
-              <td>{person.id}</td>
-              <td>{person.name}</td>
-              <td>{person.age}</td>
-              <td>{person.email}</td>
-              <td>{person.gender}</td>
-              <span style={{ fontSize: "smaller" }}>
-                <a href="/#" onClick={(e) => { e.preventDefault(); editPerson(person.id) }}> (delete, </a>
-                <a href="/#" onClick={(e) => { e.preventDefault(); deletePerson(person.id) }}> edit) </a>
-              </span>
-            </tr>
+            <tr key={person.id}><td style={{ fontSize: "smaller" }}>{person.id}</td><td>{person.name}</td><td>{person.age}</td><td>{person.email}</td><td>{person.gender}</td>
+              <td><span style={{ fontSize: "smaller" }}>
+                <a href="/#" onClick={(e) => { e.preventDefault(); editPerson(person.id) }}>(edit,&nbsp;</a>
+                <a href="/#" onClick={(e) => { e.preventDefault(); deletePerson(person.id) }}>delete)</a>
+              </span></td></tr>
           ))}
         </tbody>
       </table>

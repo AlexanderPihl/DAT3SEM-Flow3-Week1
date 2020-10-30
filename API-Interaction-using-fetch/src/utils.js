@@ -3,7 +3,7 @@ function makeOptions(method, body) {
   var opts = {
     method: method,
     headers: {
-      ...(['PUT', 'POST'].includes(method) && { //using spread operator to conditionally add member to headers object.
+      ...(['PUT', 'POST', 'DELETE'].includes(method) && { //using spread operator to conditionally add member to headers object.
         "Content-type": "application/json"
       }),
       "Accept": "application/json"
