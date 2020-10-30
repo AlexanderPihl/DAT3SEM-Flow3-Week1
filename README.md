@@ -1,18 +1,19 @@
 # Flow3-Week1 - Alexander Pihl - DAT3SEM
 
 ## ES6 and React functional Components and props (27-10-2020)
+### Github link:https://github.com/AlexanderPihl/DAT3SEM-Flow3-Week1/tree/main/Exercises
 
 ## State, events, lists and keys (28-10-2020)
-### Github link:
+### Github link:https://github.com/AlexanderPihl/DAT3SEM-Flow3-Week1/tree/main/Exercises
 
 ## Forms, State and CRUD (29/30-10-2020)
-### Github link: 
+### Github link: https://github.com/AlexanderPihl/DAT3SEM-Flow3-Week1/tree/main/Exercises
 
 ## Lifting State Up (29/30-10-2020)
-### Github link:
+### Github link: https://github.com/AlexanderPihl/DAT3SEM-Flow3-Week1/tree/main/Exercises
 
 ## API Interaction using fetch (29/30-10-2020)
-### Github link:
+### Github link: https://github.com/AlexanderPihl/DAT3SEM-Flow3-Week1/tree/main/API-Interaction-using-fetch
 
 
 Learning Objectives:
