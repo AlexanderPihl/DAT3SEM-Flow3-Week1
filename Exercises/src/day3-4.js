@@ -21,10 +21,6 @@ export default function day3and4() {
             <br />
             <LiftState />
 
-            <br />
-
-            <h2>API Interaction using fetch (fall 2019)</h2>
-
         </div>
     )
 }

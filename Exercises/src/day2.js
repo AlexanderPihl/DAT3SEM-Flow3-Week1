@@ -9,13 +9,13 @@ export default function day2() {
             <h1>Exercises Day 2</h1>
 
             <h2>Ex. 1</h2>
-            <Clicker initValue={localStorage.getItem("count")} value={5} />
+            <Clicker initValue={localStorage.getItem("count")} value={1} />
 
             <h2>Ex. 2</h2>
-            <FetchJoke/>
+            <FetchJoke />
 
             <h2>Ex. 3</h2>
-            <Ex3/>
+            <Ex3 />
 
         </div>
     )

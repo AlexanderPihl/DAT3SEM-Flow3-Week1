@@ -2,6 +2,7 @@ import './App.css';
 import Demo, { Example1, Example2, textField } from './classEXdemo'
 import { StateDemo } from './classExLiftState'
 import { Api } from './classExApiFacade'
+//import StateDemo from './classExStateDemo'
 
 const names = [
     { fname: "Anders", lname: "Henriksen" },
@@ -28,6 +29,8 @@ function App() {
             <StateDemo />
             <br />
             <Api />
+            <br />
+
 
 
         </div>
